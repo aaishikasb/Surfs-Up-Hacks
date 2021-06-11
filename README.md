@@ -1,1 +1,80 @@
+![Banner](assets/banner.png)
 # Team megaBite
+Official entry of Team megaBite, from SRM Institute of Science and Technology, Kattankulathur, India, to [Surfs Up Hack](https://surfsuphacks.devpost.com/).
+
+## Links to Surfs Up Hack ⚓
+1. [Website](https://organize.mlh.io/participants/events/6800-surfs-up-hacks)
+2. [Devpost](https://surfsuphacks.devpost.com/)
+
+![Image](assets/original.png)
+
+## Problem Statement 🚧
+
+Most of us like to plan our outings to nearby beaches but often, we miss out on checking essential details like the weather, taking the temperature and humidity into consideration, when we pack things to carry with ourselves.
+
+## Background 📖
+
+Say Hi to Jack 👦. Jack loves visiting the Long Beach but often comes home sunburnt. If you ask us why, it's because he never carries sunscreen with him. Jack's mum really hates that.
+
+If only Jack could find a Website that would give him recommendations for things to carry according to the weather at the Long Beach... 🤔
+
+## Solution 💡
+Meet Maeve 👧! Maeve is Jack's classmate and guess what, she also loves visiting nearby beaches!
+
+Well, Maeve heard about Jack's problem and she immediately recommended this website she always refers to before leaving for her favorite beach, [visitabeach.online](http://www.visitabeach.online)!
+
+Through **Visit a Beach**, Maeve is able to track the weather at Long Beach and by interacting with the chatbot available, she is also notified of all the things that she should carry according to the temparature and the humidity at the beach (including a sunscreen!).
+
+Moreover, she gets some amazing quotes and captions that she can use to flaunt her pictures taken at the beach over Social Media!
+
+## Screenshots 📷
+
+## Installation and Execution 🔧
+ - To check out the Website, click [here]().
+ - To locally run the Website, follow these steps:
+   1. Clone the repository using `git clone https://github.com/aaishikasb/Surfs-Up-Hacks.git`.
+   2. Open `index.html`.
+   3. Make sure if you have an active internet connection so the page is able to load data from the API.
+
+## Timeline ⏰
+ - Day 1 Checkpoints
+   - [x] Initial Documentation
+   - [ ] Set up Front End
+   - [ ] Create the Chatbot
+   - [ ] Implement UI/UX Principles
+   - [ ] Configure API
+ - Day 2 Checkpoints
+   - [ ] Enable time-based Background
+   - [ ] Fetch Geolocation and Connect API
+   - [ ] Configure Chatbot
+   - [ ] Add Quotes Section
+   - [ ] Update Sub Pages
+ - Day 3 Checkpoints
+   - [ ] Ensure Responsiveness
+   - [ ] Update Documentation
+
+## Technology Stack 💻
+### Languages and Frameworks
+ - HTML
+ - CSS
+ - JavaScript
+ - Bootstrap
+
+### Attributions
+  - Public API: Open Weather Map
+
+## Nominations 🤝
+We'd love to nominate our team for the following Prizes:
+ - Overall Prizes
+ - First Wave Hack
+   - New Hackers: [pragya-bharti](https://www.github.com/pragya-bharti) and [yashsaini24](https://www.github.com/yashsaini24)
+ - Best Surfs Up Hack
+ - Best Domain name from Domain.com
+   - Domains Registered:
+     1. visitabeach.online
+     2. beachwith.tech
+ - Best Domain Name from GoDaddy Registry [APAC Only]
+   - Domain Registered: beachwith.us
+
+## Collaborators 🤖
+Built with ❤️ and ⌨️ by ~~beep-bops~~
