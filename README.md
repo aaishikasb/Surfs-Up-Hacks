@@ -1,4 +1,4 @@
-![Banner](assets/banner.png)
+![Banner](assets/repository/banner.png)
 # Team megaBite
 Official entry of Team megaBite, from SRM Institute of Science and Technology, Kattankulathur, India, to [Surfs Up Hack](https://surfsuphacks.devpost.com/).
 
@@ -6,7 +6,7 @@ Official entry of Team megaBite, from SRM Institute of Science and Technology, K
 1. [Website](https://organize.mlh.io/participants/events/6800-surfs-up-hacks)
 2. [Devpost](https://surfsuphacks.devpost.com/)
 
-![Image](assets/original.png)
+![Image](assets/repository/original.png)
 
 ## Problem Statement 🚧
 
@@ -39,7 +39,7 @@ Moreover, she gets some amazing quotes and captions that she can use to flaunt h
 ## Timeline ⏰
  - Day 1 Checkpoints
    - [x] Initial Documentation
-   - [ ] Set up Front End
+   - [x] Set up Front End
    - [ ] Create the Chatbot
    - [ ] Implement UI/UX Principles
    - [ ] Configure API
