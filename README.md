@@ -47,7 +47,7 @@ Moreover, she gets some amazing quotes and captions that she can use to flaunt h
    - [ ] Enable time-based Background
    - [ ] Fetch Geolocation and Connect API
    - [ ] Configure Chatbot
-   - [ ] Add Quotes Section
+   - [x] Add Quotes Section
    - [ ] Update Sub Pages
  - Day 3 Checkpoints
    - [ ] Ensure Responsiveness
