@@ -22,11 +22,11 @@ class UI {
                   </div>
                   <div class="col-md-8">
                       <div class="card-body">
-                          <h5 class="card-title">${data.name}</h5>
-                          <p class="card-text">Weather: ${data.weather[0].main}</p>
-                          <p class="card-text">Temperature: ${data.main.temp}</p>
-                          <p class="card-text">Feels Like: ${data.main.feels_like}</p>
-                          <p class="card-text">Humidity: ${data.main.humidity}%</p>
+                          <h5 class="card-title">${data.name}, ${data.sys.country}</h5>
+                          <p class="card-text">Weather: ${data.weather[0].main}<br>
+                          Temperature: ${data.main.temp}°C<br>
+                          Feels Like: ${data.main.feels_like}°C<br>
+                          Humidity: ${data.main.humidity}%</p>
                       </div>
                   </div>
               </div>
