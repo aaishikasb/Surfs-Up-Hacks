@@ -1,9 +1,11 @@
 // Background
 
-function switch1() {
-    var property = document.getElementById('switcher');
-    property.className = 'orange' == property.className ? 'blue' : 'orange';
-}
+$('.switch1').click(function () {
+    var classes = ['blue','orange','slate'];
+    $('body').each(function(){
+      this.className = classes[($.inArray(this.className, classes)+1)%classes.length];
+    });
+  });
 
 // Menu
 
