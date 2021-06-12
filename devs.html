@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Devs</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR
+        <div class="nav">
+
+        </div> -->
+
+    <div class="dev-1">
+        <div class="left-side">
+            <h1>Developers</h1>
+            <div class="names">
+                <h2>Aaishika S Bhattacharya</h2>
+                <h3>Team Lead</h3>
+                <h2>Gyanesh Samanta</h2>
+                <h3>Chatbot Developer</h3>
+            </div>
+        </div>
+
+        <div class="right-side">
+            <div class="pic-1">
+                <img src="./assets/images/image-1.png" alt="">
+            </div>
+
+            <!-- Second Page -->
+
+        </div>
+    </div>
+    <div class="dev-2" data-aos="fade-up">
+        <div class="left-side" data-aos="fade-up">
+            <div class="pic-2" data-aos="fade-up">
+                <img src="./assets/images/image-2.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="right-side" data-aos="fade-up">
+
+            <div class="names" data-aos="fade-up">
+                <h2>Pragya Bharti</h2>
+                <h3>App Developer.</h3>
+                <h2>Yash Saini</h2>
+                <h3>Front End Developer</h3>
+                <div class="btn"> <a href="">See Project on Github</a> </div>
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+:root {
+  /* --border: 1px solid black; */
+  --font: "Poppins", sans-serif;
+}
+
+.dev-1 {
+  border: var(--border);
+  /* margin: 1rem; */
+  display: flex;
+  height: 100%;
+  margin-bottom: 2rem;
+}
+
+.dev-1 .left-side {
+  /* border: 2px solid red; */
+  width: 50%;
+  display: flex;
+  /* height: 500px; */
+  flex-direction: column;
+  margin: 6rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.dev-1 .left-side h1 {
+  border: var(--border);
+  font-size: 40px;
+}
+
+.dev-1 .left-side .names h2 {
+  font-size: 27px;
+  margin-top: 3rem;
+  font-weight: 600;
+}
+
+.dev-1 .left-side .names h3 {
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.dev-1 .right-side {
+  border: var(--border);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dev-1 .right-side img {
+  border: var(--border);
+  width: 97%;
+}
+
+/* SECOND PAGE STARTS */
+
+.dev-2 {
+  border: var(--border);
+  /* margin: 1rem; */
+  display: flex;
+  height: 100%;
+  /* margin-bottom: 10rem; */
+}
+
+.dev-2 .left-side {
+  border: var(--border);
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dev-2 .left-side img {
+  border: var(--border);
+  width: 97%;
+}
+
+.dev-2 .right-side {
+  /* border: 2px solid red; */
+  width: 50%;
+  display: flex;
+  /* height: 500px; */
+  flex-direction: column;
+  margin: 6rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.dev-2 .right-side .names h2,
+h3 {
+  border: var(--border);
+}
+
+
+.dev-2 .right-side h1 {
+  border: var(--border);
+  font-size: 40px;
+}
+
+.dev-2 .right-side .names h2 {
+  font-size: 27px;
+  margin-top: 3rem;
+  font-weight: 600;
+}
+
+.dev-2 .right-side .names h3 {
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.dev-2 .right-side .names .btn {
+  margin-top: 3.5rem;
+  border: var(--border);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+  font-size: larger;
+  border-radius: 5%;
+  background-color: #343a40;
+}
+
+.dev-2 .right-side .names .btn:hover {
+  background-color: #212529;
+}
+
+.dev-2 .right-side .names .btn a {
+  font-size: larger;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 1140px) {
+  .dev-1 .left-side {
+    margin: 0rem;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 1040px) {
+  .dev-1 .right-side {
+    /* display: none; */
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+
+    /* border: 1px solid; */
+  }
+  .dev-1 .left-side {
+    /* width: 90%; */
+    margin: 0rem;
+    margin-left: 1rem;
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .dev-1 .left-side {
+    width: 60%;
+  }
+}
+
+@media (max-width:540px) {
+    .dev-1{
+        flex-direction: column;
+    }
+    .dev-1 .left-side{
+      width: 80%;
+      padding: 2.5rem;
+      justify-content: left;
+    }
+
+    .dev-1 .right-side{
+        margin-top: 3rem;
+        height: vh;
+        width: 100%;
+    }
+    .dev-1 .right-side img{
+        width: 100%;
+
+    }
+  }
+
+/* SECOND PAGE */
+
+@media (max-width: 1140px) {
+  .dev-2 .right-side {
+    margin: 0rem;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 1040px) {
+  .dev-2 .left-side {
+    /* display: none; */
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+
+    /* border: 1px solid; */
+  }
+  .dev-2 .right-side {
+    /* width: 90%; */
+    margin: 0rem;
+    margin-left: 1rem;
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .dev-2 .right-side {
+    width: 60%;
+  }
+}
+
+
+
+@media (max-width:540px) {
+    .dev-2{
+        flex-direction: column;
+    }
+    .dev-2 .right-side{
+      width: 80%;
+      padding: 2.5rem;
+      justify-content: left;
+    }
+
+    .dev-2 .left-side{
+        margin-top: 3rem;
+        height: vh;
+        width: 100%;
+    }
+    .dev-2 .left-side img{
+        width: 100%;
+
+    }
+  }
+
+
+    </style>
+
+<script>
+  AOS.init();
+</script>
+</body>
+
+</html>
