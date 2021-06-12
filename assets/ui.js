@@ -24,9 +24,10 @@ class UI {
                       <div class="card-body">
                           <h5 class="card-title">${data.name}, ${data.sys.country}</h5>
                           <p class="card-text">Weather: ${data.weather[0].main}<br>
-                          Temperature: ${data.main.temp}°C<br>
-                          Feels Like: ${data.main.feels_like}°C<br>
-                          Humidity: ${data.main.humidity}%</p>
+                          Temperature: ${data.main.temp} °C<br>
+                          Feels Like: ${data.main.feels_like} °C<br>
+                          Humidity: ${data.main.humidity}%<br>
+                          Wind Speed: ${data.wind.speed} Knots</p>
                       </div>
                   </div>
               </div>
