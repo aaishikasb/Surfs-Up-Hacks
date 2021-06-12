@@ -46,6 +46,7 @@ Moreover, she gets some amazing quotes and captions that she can use to flaunt h
  - Day 2 Checkpoints
    - [ ] Enable time-based Background
    - [ ] Fetch Geolocation and Connect API
+   - [x] Update Android App
    - [x] Configure Chatbot
    - [x] Add Quotes Section
    - [x] Update Sub Pages

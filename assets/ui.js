@@ -15,7 +15,7 @@ class UI {
       this.uiContainer.innerHTML = `
   
   
-          <div class="card text-dark bg-light border-dark mb-3" style="max-width: 50em;">
+          <div class="card text-dark bg-light border-dark mb-3" style="max-width: 60em;">
               <div class="row g-0">
                   <div class="col-md-4 text-center my-auto">
                       <img class="mx-auto d-block" src="http://openweathermap.org/img/w/${data.weather[0].icon}.png">
