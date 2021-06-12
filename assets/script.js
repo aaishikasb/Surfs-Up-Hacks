@@ -1,7 +1,8 @@
 // Background
 
 function switch1() {
-    document.getElementById('switcher').className = 'orange';
+    var property = document.getElementById('switcher');
+    property.className = 'orange' == property.className ? 'blue' : 'orange';
 }
 
 // Menu
