@@ -11,7 +11,6 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="assets/script.js"></script>
 </head>
 
 <body id="switcher" class="blue">
@@ -42,28 +41,14 @@
 
             <!-- Form -->
             <div class="input-group mb-3 col-6" style="max-width: 50em;">
-                <input type="text" class="form-control city" placeholder="City" id="city" value="California">
-                <button class="btn btn-outline-dark" type="button" id="btn-city" onclick="getInput()">Search</button>
+                <input type="text" class="form-control city" placeholder="Enter City" id="searchUser">
+                <input type="button" class="btn btn-outline-dark" type="button" id="submit" value="Search">
             </div>
             <!-- Form Ends -->
 
             <!-- Weather Stuff-->
 
-            <div class="card text-dark bg-light border-dark mb-3" style="max-width: 50em;">
-                <div class="row g-0">
-                    <div class="col-md-4 text-center my-auto">
-                        <img class="icon mx-auto d-block">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title typ"></h5>
-                            <p class="card-text temp"></p>
-                            <p class="card-text feel"></p>
-                            <p class="card-text humidity"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="content"></div>
 
             <!-- Weather Stuff Ends -->
 
@@ -88,6 +73,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+    <script src="assets/fetch.js"></script>
+    <script src="assets/ui.js"></script>
+    <script src="assets/app.js"></script>
 
     <!-- Scripts End -->
 </body>
