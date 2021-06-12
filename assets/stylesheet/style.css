@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    color: #fff;
 }
 
 /* Navigation */
@@ -168,3 +167,6 @@ section .wave.wave6 {
 
 /* Waves End */
 
+h1 {
+    color: #fff;
+}
