@@ -21,7 +21,7 @@ If only Jack could find a Website that would give him recommendations for things
 ## Solution 💡
 Meet Maeve 👧! Maeve is Jack's classmate and guess what, she also loves visiting nearby beaches!
 
-Well, Maeve heard about Jack's problem and she immediately recommended this website she always refers to before leaving for her favorite beach, [visitabeach.online](http://www.visitabeach.online)!
+Well, Maeve heard about Jack's problem and she immediately recommended this website she always refers to before leaving for her favorite beach, [visitabeach.online](http://www.visitabeach.netlify.app)!
 
 Through **Visit a Beach**, Maeve is able to track the weather at Long Beach and by interacting with the chatbot available, she is also notified of all the things that she should carry according to the temparature and the humidity at the beach (including a sunscreen!).
 
@@ -30,11 +30,17 @@ Moreover, she gets some amazing quotes and captions that she can use to flaunt h
 ## Screenshots 📷
 
 ## Installation and Execution 🔧
- - To check out the Website, click [here]().
+ - To check out the Website, click [here](https://www.visitabeach.netlify.app).
  - To locally run the Website, follow these steps:
    1. Clone the repository using `git clone https://github.com/aaishikasb/Surfs-Up-Hacks.git`.
    2. Open `index.html`.
    3. Make sure if you have an active internet connection so the page is able to load data from the API.
+
+ - To check out the Android Application, download the `app-debug.apk` from under the `Releases` tab.
+ - To locally check the working and functionality of the app, follow these steps:
+   1. Directly import the repository onto `Android Studio`.
+   2. Click on `File`>`New`>`Project from Version Control`>`GitHub`.
+   3. Enter your Username and Password and hit `Clone`.
 
 ## Timeline ⏰
  - Day 1 Checkpoints
@@ -45,24 +51,26 @@ Moreover, she gets some amazing quotes and captions that she can use to flaunt h
    - [x] Configure API
  - Day 2 Checkpoints
    - [ ] Enable time-based Background
-   - [ ] Fetch Geolocation and Connect API
+   - [ ] Fetch Geolocation with Geocoding API
+   - [x] Connect API
    - [x] Update Android App
    - [x] Configure Chatbot
    - [x] Add Quotes Section
    - [x] Update Sub Pages
  - Day 3 Checkpoints
-   - [ ] Ensure Responsiveness
-   - [ ] Update Documentation
+   - [x] Ensure Responsiveness
+   - [x] Update Documentation
 
 ## Technology Stack 💻
 ### Languages and Frameworks
  - HTML
  - CSS
  - JavaScript
+ - JQuery
  - Bootstrap
 
 ### Attributions
-  - Public API: Open Weather Map
+  - Public API: Open Weather Map: Current Weather API
 
 ## Nominations 🤝
 We'd love to nominate our team for the following Prizes:
@@ -77,5 +85,11 @@ We'd love to nominate our team for the following Prizes:
  - Best Domain Name from GoDaddy Registry [APAC Only]
    - Domain Registered: beachwith.us
 
+## Future Upgrades and Iterations 🐬
+  - Use Geocoding API to fetch accurate details.
+  - Integrate more elements in terms of statistics.
+  - Use Logical Jump in Chatbot for a more interactive experience.
+
 ## Collaborators 🤖
 Built with ❤️ and ⌨️ by ~~beep-bops~~
+![GitHub Contributors Image](https://contrib.rocks/image?repo=aaishikasb/Surfs-Up-Hacks)
