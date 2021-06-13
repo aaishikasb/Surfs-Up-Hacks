@@ -28,6 +28,14 @@ Through **Visit a Beach**, Maeve is able to track the weather at Long Beach and 
 Moreover, she gets some amazing quotes and captions that she can use to flaunt her pictures taken at the beach over Social Media!
 
 ## Screenshots 📷
+![Screenshot](assets/repository/screenshot.png)
+![Screenshot](assets/repository/screenshot1.png)
+![Screenshot](assets/repository/screenshot2.png)
+![Screenshot](assets/repository/image.jpeg)
+![Screenshot](assets/repository/image2.jpeg)
+![Screenshot](assets/repository/image3.jpeg)
+![Screenshot](assets/repository/image4.jpeg)
+![Screenshot](assets/repository/image5.jpeg)
 
 ## Installation and Execution 🔧
  - To check out the Website, click [here](https://www.visitabeach.netlify.app).
@@ -63,6 +71,7 @@ Moreover, she gets some amazing quotes and captions that she can use to flaunt h
 
 ## Technology Stack 💻
 ### Languages and Frameworks
+ - Java
  - HTML
  - CSS
  - JavaScript
