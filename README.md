@@ -21,7 +21,7 @@ If only Jack could find a Website that would give him recommendations for things
 ## Solution 💡
 Meet Maeve 👧! Maeve is Jack's classmate and guess what, she also loves visiting nearby beaches!
 
-Well, Maeve heard about Jack's problem and she immediately recommended this website she always refers to before leaving for her favorite beach, [visitabeach.online](http://www.visitabeach.netlify.app)!
+Well, Maeve heard about Jack's problem and she immediately recommended this website she always refers to before leaving for her favorite beach, [visitabeach.online](http://visitabeach.netlify.app)!
 
 Through **Visit a Beach**, Maeve is able to track the weather at Long Beach and by interacting with the chatbot available, she is also notified of all the things that she should carry according to the temparature and the humidity at the beach (including a sunscreen!).
 
@@ -38,7 +38,7 @@ Moreover, she gets some amazing quotes and captions that she can use to flaunt h
 ![Screenshot](assets/repository/image5.jpeg)
 
 ## Installation and Execution 🔧
- - To check out the Website, click [here](https://www.visitabeach.netlify.app).
+ - To check out the Website, click [here](https://visitabeach.netlify.app).
  - To locally run the Website, follow these steps:
    1. Clone the repository using `git clone https://github.com/aaishikasb/Surfs-Up-Hacks.git`.
    2. Open `index.html`.
@@ -80,6 +80,7 @@ Moreover, she gets some amazing quotes and captions that she can use to flaunt h
 
 ### Attributions
   - Public API: Open Weather Map: Current Weather API
+  - Chatbot: Collect.chat
 
 ## Nominations 🤝
 We'd love to nominate our team for the following Prizes:
