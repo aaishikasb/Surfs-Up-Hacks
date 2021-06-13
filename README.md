@@ -92,4 +92,5 @@ We'd love to nominate our team for the following Prizes:
 
 ## Collaborators 🤖
 Built with ❤️ and ⌨️ by ~~beep-bops~~
+
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=aaishikasb/Surfs-Up-Hacks)
